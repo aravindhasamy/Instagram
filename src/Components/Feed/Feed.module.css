@@ -1,0 +1,114 @@
+.feedContainer{
+    height:auto;
+    width:605px; 
+    border:1px solid lightgray;
+     margin-bottom: 20px;
+    background-color:white; 
+    border-radius:2px;
+   /* //  borderBottomColor:transparent; */
+}
+
+.feedInnerContainer{
+    height: 3.5em;
+    /* //  backgroundColor:"red", */
+      display:flex;
+       flex-direction:row;
+        padding:10px;
+}
+
+.feedBodyOne{
+    height:70%;
+            /* //  backgroundColor:"yellow", */
+    justify-content:center;
+    align-items:center; 
+   display:flex;
+}
+
+.feedBodyTwo{
+    display:flex;
+    flex-direction:column; 
+    justify-content:flex-end;
+}
+
+.feedBodyThree{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height:auto;
+}
+
+.feedBodyFour{
+    margin-top:10px;
+  margin-bottom:10px;
+     display:flex; 
+    flex-direction:row;
+     justify-content:space-between;
+    align-items:center;
+}
+
+.feedBodyFive{
+    margin-left:20px;
+      cursor:pointer;
+       display:flex;
+     flex-direction:row;
+  align-items:center;
+}
+
+.feedBodySix{
+    margin-left:20px;
+cursor:pointer;
+display:flex;
+    flex-direction:row;
+   align-items:center;
+}
+
+.feedBodySeven{
+    margin-right:20px;
+     cursor:pointer;
+    display:flex;
+     flex-direction:row;
+     align-items:center;
+}
+
+.feedBodyEight{
+    display:flex;
+    flex-direction:column;
+     height:auto;
+}
+
+.feedBodyNine{
+    display:flex;
+     margin-bottom:20px;
+     margin-left:20px;
+}
+
+.commentBodyOne{
+    border-top:1px solid lightgray;
+    /* // borderColor:"transparent", */
+/* //  backgroundColor:"orange",  */
+height:49px;
+width:604px;
+display:flex;
+justify-content:flex-end
+}
+
+.commentBox{
+    width:35.5em;
+     height:2.9em;
+     text-indent: 40px;
+     border-color:transparent; 
+    font-size:15px;
+}
+
+.commentButton{
+    cursor:pointer;
+    font-size:15px;
+     border-color:transparent;
+      background-color:white;
+}
+
+.modalStyle{
+    display:flex;
+     justify-content:center;
+      align-items:center;
+}
